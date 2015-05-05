@@ -23,6 +23,6 @@ with open(args.csv_file, 'r') as csv:
     for line in csv:
         filename = line.split(args.S)[args.N]
         print('Copying %s to %s', (path.join(args.source_path, filename),
-                                   copyfile(args.destination_path, filename)))
+                                   path.join(args.destination_path, filename)))
         copyfile(path.join(args.source_path, filename),
-                 copyfile(args.destination_path, filename))
+                 copyfile(path.join(args.destination_path, filename)))
