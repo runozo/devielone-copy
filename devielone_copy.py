@@ -4,7 +4,7 @@ import argparse
 from shutil import copyfile
 from os import path
 
-parser = argparse.ArgumentParser(description='Copies files listed in a csv file.')
+parser = argparse.ArgumentParser(description='Copies files listed in a csv file.', epilog="© 2015 Cesare Ghirelli")
 parser.add_argument(
     'csv_file', type=str, help='a csv file with a list of file names to be copied')
 parser.add_argument(
