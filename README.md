@@ -4,7 +4,9 @@ Copies a list of files listed in a csv file, from a source directory to a destin
 
 ## Usage
 
+```
 devielone_copy.py [-h] [-N N] [-S S] [-E E] csv_file source_path destination_path
+
 
 positional arguments:
   csv_file          a csv file with a list of file names to be copied
@@ -17,3 +19,4 @@ optional arguments:
                     default: "0"
   -S S              the separator for the columns of the csv file, default: ";"
   -E E              the file extension
+```
