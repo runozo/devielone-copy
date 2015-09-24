@@ -8,11 +8,11 @@ parser = argparse.ArgumentParser(description='Copies files listed in a csv file.
 parser.add_argument(
     'csv_file', type=str, help='a csv file with a list of file names to be copied')
 parser.add_argument(
-    '-N', type=int, help='the number of the column where the file names are stored, default: 0', default=0, required=False)
+    '-N', type=int, help='the column number in which the file names are present, default: 0', default=0, required=False)
 parser.add_argument(
     '-S', type=str, help='the separator for the columns of the csv file, default: ";"', default=';', required=False)
 parser.add_argument(
-    '-E', type=str, help='the source files extension, default: "pdf"', default='pdf', required=False)
+    '-E', type=str, help='the source files extension, default: ".csv"', default='pdf', required=False)
 parser.add_argument(
     'source_path', type=str, help='the source path to copy the files')
 parser.add_argument(

@@ -16,11 +16,11 @@ positional arguments:
 
 optional arguments:
   -h, --help        show this help message and exit
-  -N N              the number of the column where the file names are stored,
+  -N N              the column number in which the file names are present,
                     default: 0
   -S S              the separator for the columns of the csv file, default:
                     ";"
-  -E E              the source files extension, default: "pdf"
+  -E E              the source files extension, default: "csv"
 
 © 2015 Cesare Ghirelli
 ```
