@@ -1,6 +1,6 @@
 # devielone-copy
 
-Copies a list of files listed in a csv file, from a source directory to a destination directory.
+Copies a list of files read from a csv-like file, from a source directory to a destination directory.
 
 ## Usage
 
@@ -11,7 +11,7 @@ Copies files listed in a csv file.
 
 positional arguments:
   csv_file          a csv file with a list of file names to be copied
-  source_path       the source path to copy the files
+  source_path       the source path to copy the files from
   destination_path  the destination path to copy the files
 
 optional arguments:
