@@ -22,5 +22,4 @@ optional arguments:
                     ";"
   -E E              the source files extension, default: "csv"
 
-© 2015 Cesare Ghirelli
 ```
